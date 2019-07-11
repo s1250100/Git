@@ -8,3 +8,7 @@ print('Die 2: '+str(diceB))
 
 total = diceA + diceB
 print('Total value: '+str(total))
+
+if total > 7:
+    print('You won')
+else: print('You lost')
